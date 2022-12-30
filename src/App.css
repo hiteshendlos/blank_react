@@ -1,5 +1,23 @@
-main {
-  text-align: center;
-  vertical-align: center;
-  line-height: 100vh
+body {
+  /* background-color: black; */
+}
+
+.test {
+  background-color: transparent;
+  /* color: white; */
+  /* width: 100px;
+  height: 100px; */
+}
+.test2 {
+  background-color: red;
+  width: 1000px;
+  height: 1000px;
+}
+
+.parent_div {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+  align-items: center;
 }
